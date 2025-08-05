@@ -5,7 +5,7 @@
 ## 项目结构
 
 ```
-novels_generator/
+StoryWeaver/
 ├── examples/            # 示例小说
 ├── generate_chapters.py # 生成章节内容
 ├── generate_outline.py  # 生成小说大纲
@@ -34,13 +34,13 @@ novels_generator/
 
 1. 启动Flask后端服务：
    ```bash
-   cd /Users/zhongzihao/PycharmProjects/novels_generator
+   cd ./
    python app.py
    ```
    服务将运行在 http://localhost:5000
 
 2. 打开网页前端：
-   - 直接在浏览器中打开 `/Users/zhongzihao/PycharmProjects/novels_generator/web/index.html`
+   - 直接在浏览器中打开 `./web/index.html`
    - 或使用VS Code Live Server等工具提供网页服务
 
 3. 使用平台：
